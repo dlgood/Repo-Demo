@@ -1,0 +1,48 @@
+.container {
+	width : 62em;
+}
+
+header {
+	margin: 0 auto;
+	position : fixed;
+	border : solid black 1px;
+}
+
+nav {
+	margin: 0 auto;
+	position : fixed;
+	border : solid black 1px;
+}
+
+.social {
+	float : right;
+	position : fixed;
+}
+
+li.navigation {
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+	padding-left : 0px;
+	margin-left : 0px;
+	float : left;
+}
+
+
+/* Additional markup method */
+.clear {
+	clear: both;
+}
+
+
+/* Clear fix hack method */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+
